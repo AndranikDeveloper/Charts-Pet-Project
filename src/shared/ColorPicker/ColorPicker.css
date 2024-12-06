@@ -1,0 +1,20 @@
+.input-color {
+    border: none;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 50%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.input-color:hover {
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+}
+
+.input-color:focus {
+    outline: none;
+    box-shadow: 0 0 12px rgba(0, 123, 255, 0.5);
+}

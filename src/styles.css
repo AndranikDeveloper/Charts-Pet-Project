@@ -1,0 +1,13 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+svg {
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+}
